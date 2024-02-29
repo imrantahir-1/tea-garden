@@ -41,11 +41,12 @@
 <body class="font-manrope">
 
     <header class="container mx-auto">
-        <div class="hero min-h-screen">
+        <div class="hero">
             <div class="hero-content">
-                <div class="flex">
+                <div class=" lg:flex">
                     <div>
-                        <h1 class="text-7xl font-extrabold">I is good <br> Tea Time at The <br>Tea house</h1>
+                        <h1 class=" text-4xl lg:text-7xl font-extrabold">I is good <br> Tea Time at The <br>Tea house
+                        </h1>
                         <p class="py-6 font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
                             suscipit, quos fugit quisquam quam eligendi minima aliquid beatae blanditiis quasi ad quae
                             pariatur officia obcaecati rerum molestiae nam id ex?</p>
@@ -62,16 +63,57 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
     </header>
 
 
-    <main>
+    <main class="container mx-auto my-20">
+        <!-- featured section -->
+        <section class="text-center">
+            <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+            <p class="max-w-4xl m-auto"> There are many variation Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Doloremque, doloribus commodi. Dolorum reiciendis vel veritatis neque odit eveniet vero impedit
+                quo qui hic.</p>
 
+            <!-- tea card container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+
+                   <!-- first card -->
+                <div class="card bg-base-100 rounded-xl bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f4] p-8 shadow-xl">
+                    <figure><img src="/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center text-3xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                   <!-- second card -->
+                <div class="card bg-base-100 rounded-xl bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f4] p-8 shadow-xl">
+                    <figure><img src="/images/tea-2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center text-3xl font-bold">Black Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                   <!-- third card -->
+                <div class="card bg-base-100 rounded-xl bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f4] p-8 shadow-xl">
+                    <figure><img src="/images/tea-3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center text-3xl font-bold">Lemon Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                   <!-- fourth card -->
+                <div class="card bg-base-100 rounded-xl bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f4] p-8 shadow-xl">
+                    <figure><img src="/images/tea-4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center text-3xl font-bold">Green Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
