@@ -9,16 +9,72 @@
     <!-- tailwind and daisy ui cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/9a0a437794.js" crossorigin="anonymous"></script>
+
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- tailwind custome color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="font-manrope">
 
-    <header>
+    <header class="container mx-auto">
+        <div class="hero min-h-screen">
+            <div class="hero-content">
+                <div class="flex">
+                    <div>
+                        <h1 class="text-7xl font-extrabold">I is good <br> Tea Time at The <br>Tea house</h1>
+                        <p class="py-6 font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                            suscipit, quos fugit quisquam quam eligendi minima aliquid beatae blanditiis quasi ad quae
+                            pariatur officia obcaecati rerum molestiae nam id ex?</p>
+                        <button class="btn btn-primary">Explore More</button>
+                    </div>
+                    <div>
+                        <img src="/images/banner.png" class="max-w-sm" />
+                        <!-- badge section -->
+                        <div class=" -mt-16 flex gap-4 w-64 rounded-xl p-2 items-center  bg-white shadow-lg">
+                            <div class=""><i class="fa-solid fa-star text-3xl text-amber-400"></i></div>
+                            <div>
+                                <h2 class="text-3xl font-semibold">5.00</h2>
+                                <p class="font-semibold">Traust pilot Rating.</p>
+                            </div>
+                        </div>
+                    </div>
 
+
+                </div>
+            </div>
+        </div>
     </header>
+
+
     <main>
 
     </main>
+
+
     <footer>
 
     </footer>
